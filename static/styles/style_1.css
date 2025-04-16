@@ -1,0 +1,74 @@
+img {
+    width: 9%;
+    height: 9%;
+    background-image: -moz-element();
+}
+
+
+
+.conteiner {
+    text-align: center;
+}
+a {
+    color: black; /* Черный цвет для обычного состояния */
+    text-decoration: none; /* Убирает подчеркивание */
+  }
+  
+  a:link { /* Ссылка, на которую еще не переходили */
+    color: black;
+  }
+  
+  a:visited { /* Ссылка, на которую уже переходили */
+    color: black;
+  }
+  
+  a:hover { /* Ссылка при наведении курсора */
+    color: black;
+    /* text-decoration: underline;  Можно добавить подчеркивание при наведении */
+  }
+  
+  a:active { /* Ссылка в момент клика */
+    color: black;
+  }
+  
+  
+@font-face {
+    font-family: 'Dinosaur';
+    /* Выберите имя для вашего шрифта */
+    src: url('../fonts/Dinosaur.ttf') format('truetype');
+    /* Путь к файлу шрифта */
+    font-weight: normal;
+    /* Нормальная толщина шрифта */
+    font-style: normal;
+    /* Нормальный стиль шрифта */
+    font-display: swap;
+    /*  Стратегия отображения */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* Запасной шрифт */
+}
+
+.p_1 {
+
+    font-family: 'Dinosaur', sans-serif;
+    /* Применяем шрифт Dinosaur */
+    font-size: 100px;
+    /* Увеличим шрифт для лучшей видимости */
+    color: darkgreen;
+    /*  Сделаем текст зеленым, чтобы было заметнее изменение */
+    margin: 0;
+    /* Уберем отступы у параграфа */
+}
+
+dir {
+    display: flex;
+    /*  Чтобы картинка и текст были в одну строку */
+    align-items: center;
+    /*  Выравнивание по вертикали */
+    /* justify-content: center;  Удаляем выравнивание по горизонтали */
+    /* flex-direction: column;  Удаляем размещение в колонку */
+    gap: 20px;
+    /* Добавим отступ между картинкой и текстом */
+}
