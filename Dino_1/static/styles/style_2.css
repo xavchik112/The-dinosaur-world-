@@ -1,0 +1,46 @@
+summary{
+    font-size: 23px;
+}
+a{
+    font-size: 18px;
+}
+/* Стили по умолчанию для больших экранов (desktop) */
+body {
+    font-size: 16px;
+    width: 960px; /* Пример фиксированной ширины */
+    margin: 0 auto; /* Центрирование */
+  }
+  
+  /* Media query для экранов шириной до 768px (планшеты) */
+  @media (max-width: 768px) {
+    body {
+      width: 100%; /* Занимает всю ширину экрана */
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query для экранов шириной до 480px (телефоны) */
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+      padding: 10px; /* Добавляем отступы */
+    }
+  }
+  .container {
+    width: 90%; /* Ширина контейнера в процентах от ширины экрана */
+    max-width: 1200px; /* Максимальная ширина (для больших экранов) */
+    margin: 0 auto; /* Центрирование */
+  }
+  
+  .column {
+    width: 30%; /* Ширина колонки */
+    float: left; /* Выравнивание по левому краю */
+    margin-right: 3%;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .su{
+    font-size: 23px;
+  }
